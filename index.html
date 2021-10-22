@@ -1,25 +1,21 @@
-<!DOCTYPE html>
-<html lang="sv">
-<head>
-    <meta charset="UTF-8">
-    <title>Om mig</title>
-</head>
-<link rel="stylesheet" href="style.css">
-<body>
-    <div class="grid">
-        <div>
-            
+<!DOCTYPE html> <!--till för att koden ska läsas som html-->
+<html lang="sv"> <!--all html kod ska skrivas mellan html taggarna, lang="sv" hjälper med översättnigar och skärmläsare-->
+    <head> <!--information som inte visas för användaren-->
+        <meta charset="UTF-8"> <!--vilken teckenkodning sidan använder-->
+        <title>Om mig</title> <!--titlen på sidans tab-->
+        <link rel="stylesheet" href="style.css"> <!--länk till css dokumentet-->
+    </head>
+    <body class="grid"> <!--information som visas för användaren, här skapas även gridden-->
+        <div class="header"> <!--sidhuvudet-->
+            <img src="jag.png" alt="jag"> <!--bilden till vänster-->
+            <div class="arrow"> <!--den svarta linjen som går igenom sidhuvudet-->
+            <nav>
+                <ul>
+                    <li><a href="sida1.html">mmmm</a></li>
+                    <li><a href="sida2.html">aaaa</a></li>
+                    <li><a href="sida3.html">ddddd</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="header">
-            <img src="jag.png" alt="jag" width="7%">
-            <div class="arrow">
-                <nav>
-                    <ul>
-                        <li><a href="sida1.html">mmmm</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </div>
-</body>
+    </body>
 </html>

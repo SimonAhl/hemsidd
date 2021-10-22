@@ -5,25 +5,35 @@ body{
 
 .grid{
     display: grid;
-    grid-template-columns: 10vw 90vw;
+    grid-template-columns: 100vw;
     grid-template-rows: 10vh 80vh 10vh;
 }
-/*
+
 img{
-    grid-column: 1/2;
-    grid-row: 1/2;
-    width: 50%;
-    background-color: gray;
+width: 10vh;
+float: left;
 }
-*/
 
 .header{
-    grid-column: 2;
-    grid-row: 1/2;
+    grid-row: 1;
     background-color: gray;
 }
 
 .arrow{
-    margin-left: 11%;
+    height: 1.78vh;
+    margin-top: 4.11vh;
     background-color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+    margin-left: 20vw;
+}
+
+a{
+   color: red; 
 }
