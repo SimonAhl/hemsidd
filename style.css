@@ -1,39 +1,58 @@
 body{
     background-color: wheat;
     margin: 0;
+    height: 100vh;
 }
 
 .grid{
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-rows: 100px 1fr 70px;
 }
 
 img{
-width: 10vh;
+width: 99px;
 float: left;
 }
 
-.header{
+header{
     grid-row: 1;
     background-color: gray;
 }
 
+main{
+    grid-row: 2;
+}
+
+footer{
+    grid-row: 3;
+    background-color: gray;
+}
+
 .arrow{
-    height: 1.78vh;
-    margin-top: 4.11vh;
+    height:17px;
+    margin-top: 41px;
     background-color: black;
 }
 
-ul{
+header ul{
     list-style-type: none;
 }
 
-li{
+header li{
     float: left;
     margin-left: 20vw;
 }
 
 a{
-   color: red; 
+   color: lightblue;
+   font-size: 0.9em;
+   font-family: 'Trebuchet MS';
 }
+
+footer > p{
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Trebuchet MS';}
