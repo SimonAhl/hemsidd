@@ -1,47 +1,40 @@
-body{
-    background-color: wheat;
-    margin: 0;
-    height: 100vh;
+body{ /*den delen av sidan som*/
+    background-color: wheat; /*backgrunds färg*/
+    margin: 0; /*ser till så att body inte tar mer plats än den behöver*/
+    height: 100vh; /*gör så att body tar upp hela sidan*/
+    display: grid; /*man kan se griden i developer tools*/
+    grid-template-columns: 100vw; /*griden har 1 column som är hela sidan*/
+    grid-template-rows: 100px 1fr 70px; /*gridden har 3 rader*/
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: 100vw;
-    grid-template-rows: 100px 1fr 70px;
+header > img{ /*bilden längst upp till vänster*/
+width: 99px; /*dess storlek*/
+float: left; /*bilden läggs till vänster*/
 }
 
-img{
-width: 99px;
-float: left;
+header{ /*Sidhuvudet*/
+    grid-row: 1; /*ligger inom grid raden 1*/
+    background-color: gray; /*har backgrundsfärg grå*/
 }
 
-header{
-    grid-row: 1;
-    background-color: gray;
+main{ /*mellandelen av sidan*/
+    grid-row: 2; /*ligger inom grid raden 2*/
 }
 
-main{
-    grid-row: 2;
+footer{ /*Sidfoten*/
+    grid-row: 3; /*ligger inom grid raden 3*/
+    background-color: gray; /*har backgrundsfärgen grå*/
 }
 
-footer{
-    grid-row: 3;
-    background-color: gray;
-}
-
-.arrow{
+nav{ /*bildar det svarta strecket genom navigerings menyn*/
     height:17px;
     margin-top: 41px;
     background-color: black;
 }
 
-header ul{
-    list-style-type: none;
-}
-
-header li{
+header li{ /**/
     float: left;
-    margin-left: 20vw;
+    margin-left: 15vw;
 }
 
 a{
@@ -56,3 +49,32 @@ footer > p{
 
 p{
     font-family: 'Trebuchet MS';}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    width: 150px;
+}
+
+tr{
+    height: 30px;
+}
+
+td > a{
+    color: black;
+}
+
+caption{
+    font-size: 2em;
+}
+
+tr:nth-child(even){
+    background-color: green;
+}
+
+tr{
+    background-color: orange;
+}

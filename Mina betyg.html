@@ -1,0 +1,75 @@
+<!DOCTYPE html> <!--till för att koden ska läsas som html-->
+<html lang="sv"> <!--all html kod ska skrivas mellan html taggarna, lang="sv" hjälper med översättnigar och skärmläsare-->
+    <head> <!--information som inte visas för användaren-->
+        <meta charset="UTF-8"> <!--vilken teckenkodning sidan använder-->
+        <title>Mina betyg</title> <!--titlen på sidans tab-->
+        <link rel="stylesheet" href="style.css"> <!--länk till css dokumentet-->
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <body> <!--information som visas för användaren, här skapas även gridden-->
+        <header> <!--sidhuvudet-->
+            <img src="jag.png" alt="jag"> <!--bilden till vänster-->
+            <div class="arrow"> <!--den svarta linjen som går igenom sidhuvudet-->
+            <nav> <!--en navigations meny (hjälper med sidläsare)-->
+                <ul> <!--en unorderd list, används ofta för menyer-->
+                    <li><a href="index.html">Om mig</a></li> <!--länk till index.html-->
+                    <li><a href="Mina betyg.html">Mina betyg</a></li> <!--länk till sida1-->
+                    <li><a href="sida2.html">aaaa</a></li> <!--länk till sida2-->
+                    <li><a href="sida3.html">ddddd</a></li> <!--länk till sida3-->
+                </ul>
+            </nav>
+        </header>
+        <main> <!--mittendelen av hemsidan-->
+            <br> <!--break line för att inte texten ska börja längst upp-->
+            <br>
+            <p> <!--brödtext-->
+                Visste du att jag går i skolan? Det visste jag och efter många års studerande och pluggande 17,2536286 timmar varje halvår har jag sammlat ihop lite betyg.
+                Betyg är en viktig del av den allmänna skolgången och därför har det varit ett stort fokus under min långa och plågsamma karrier som ledsen elev.
+            </p>
+            <br>
+            <br>
+            <table> <!--tabell-->
+                <caption>Mina betyg</caption> <!--titel för tabell-->
+                <th>Ämne</th> <!--titlar för de olika raderna-->
+                <th>Betyg</th>
+                <th>Glädje</th>
+                <th>Slutsats</th>
+
+                <tr> <!--en rad i tabellen-->
+                    <td>Svenska</td> <!--information i en radruta-->
+                    <td>B</td>
+                    <td>3/10</td>
+                    <td>har ingen aning hur jag fick B</td>
+                </tr>
+
+                <tr>
+                    <td>Matte</td>
+                    <td>A</td>
+                    <td>8/10</td>
+                    <td>Matte är gött</td>
+                </tr>
+
+                <tr>
+                    <td>Engelska</td>
+                    <td>A</td>
+                    <td>Bra</td>
+                    <td>Komigen, engelska?</td>
+                </tr>
+
+                <tr>
+                    <td>Slöjd</td>
+                    <td>F</td>
+                    <td>:(</td>
+                    <td>nej tack</td>
+                </tr>
+
+                <tr>
+                    <td>Skolan</td>
+                    <td>Vill byta till natur</td>
+                    <td><a href="https://en.wikipedia.org/wiki/Sadness">nejjj</a></td>
+                    <td>asså... duuuude seriöst??</td>
+                </tr>
+            </table>
+        </main>
+    </body>
+</html>
