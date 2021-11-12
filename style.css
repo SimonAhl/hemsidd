@@ -32,53 +32,61 @@ nav{ /*bildar det svarta strecket genom navigerings menyn*/
     background-color: black;
 }
 
-header li{ /**/
+header li{ /*gör navigeringsmeyn vertikal*/
     float: left;
     margin-left: 15vw;
 }
 
-a{
+a{/*bestämmer färg, storlek och stilen av navigeringsmenyn*/
    color: lightblue;
    font-size: 0.9em;
    font-family: 'Trebuchet MS';
 }
 
-footer > p{
+footer > p{ /*texten i footern är bold*/
     font-weight: bold;
 }
 
-p{
+p{ /*brödten har stilen trebuchet*/ 
     font-family: 'Trebuchet MS';}
 
-table, th, td{
+table, th, td{ /*definerar rammen för tabellen*/
     border: 2px solid black;
     border-collapse: collapse;
 }
 
-th{
+th{ /*gör att tabellen ser bättre ut*/
     width: 150px;
 }
 
-tr{
+tr{/*gör att tabellen ser bättre ut*/
     height: 30px;
 }
 
-td > a{
+td > a{ /*gör länken i tabellen svart*/
     color: black;
 }
 
-caption{
+caption{ /*bästemmer storleken av titlen på tabellen*/
     font-size: 2em;
 }
 
-tr:nth-child(even){
+tr:nth-child(even){ /*gör varanan ruta i tabellen grön*/
     background-color: green;
 }
 
-tr{
+tr{/*gör resten av rutorna i tabellen orange*/
     background-color: orange;
 }
 
-.frog{
+.frog{/*gör bilden av den heliga grodan en bra storlek*/
+    width: 600px;
+}
+
+main > a{ /*länkar i mittendelen är röda*/
+    color: red;
+}
+
+.thumb{ /*tumem är bra storlek*/
     width: 600px;
 }
